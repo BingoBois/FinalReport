@@ -501,7 +501,7 @@ On the positive side:
 
 On the negative side:
 *   The team spent a lot of time and resources on trying to learn and apply new technologies. 
-*   The team did not follow the _SCRUM _structure and practices
+*   The team did not follow the _SCRUM_ structure and practices
 *   Failed to maintain and update the backlog, making it easy for the developers to lose track and overview of development. 
 *   Development could have benefitted for some more models to help keep the team on the same page and the right course. 
 *   The team failed to deliver on a few the required feature 
