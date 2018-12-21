@@ -561,7 +561,7 @@ _Picture [source](https://cdn-images-1.medium.com/max/2000/1*D8Wwwce8wS3auLAiM3B
 *   Gave the team access to _ES5_ and _ES6_ features, and support for future versions
 *   Built in transpiler for older ES-versions, giving the project great compatibility with older browser.
 *   Built on top of JavaScript, meaning 
-*   Turned out to be a tough transition from JavaScript for some of the developers, due to features such as _Static Typing_, _Strict Null Checking_ and _interfaces_, which while being features being used in _Java_ and _C#_, was difficult to adjust to in a _JavaScript_environment.
+*   Turned out to be a tough transition from JavaScript for some of the developers, due to features such as _Static Typing_, _Strict Null Checking_ and _interfaces_, which while being features being used in _Java_ and _C#_, was difficult to adjust to in a _JavaScript_ environment.
 
 
 ![alt_text](/LSDRaport/DeveloperProcess.jpg)
