@@ -1,49 +1,3 @@
-<p style="color: red; font-weight: bold">>>>>>  gd2md-html alert:  ERRORs: 0; WARNINGs: 1; ALERTS: 30.</p>
-<ul style="color: red; font-weight: bold"><li>See top comment block for details on ERRORs and WARNINGs. <li>In the converted Markdown or HTML, search for inline alerts that start with >>>>>  gd2md-html alert:  for specific instances that need correction.</ul>
-
-<p style="color: red; font-weight: bold">Links to alert messages:</p><a href="#gdcalert1">alert1</a>
-<a href="#gdcalert2">alert2</a>
-<a href="#gdcalert3">alert3</a>
-<a href="#gdcalert4">alert4</a>
-<a href="#gdcalert5">alert5</a>
-<a href="#gdcalert6">alert6</a>
-<a href="#gdcalert7">alert7</a>
-<a href="#gdcalert8">alert8</a>
-<a href="#gdcalert9">alert9</a>
-<a href="#gdcalert10">alert10</a>
-<a href="#gdcalert11">alert11</a>
-<a href="#gdcalert12">alert12</a>
-<a href="#gdcalert13">alert13</a>
-<a href="#gdcalert14">alert14</a>
-<a href="#gdcalert15">alert15</a>
-<a href="#gdcalert16">alert16</a>
-<a href="#gdcalert17">alert17</a>
-<a href="#gdcalert18">alert18</a>
-<a href="#gdcalert19">alert19</a>
-<a href="#gdcalert20">alert20</a>
-<a href="#gdcalert21">alert21</a>
-<a href="#gdcalert22">alert22</a>
-<a href="#gdcalert23">alert23</a>
-<a href="#gdcalert24">alert24</a>
-<a href="#gdcalert25">alert25</a>
-<a href="#gdcalert26">alert26</a>
-<a href="#gdcalert27">alert27</a>
-<a href="#gdcalert28">alert28</a>
-<a href="#gdcalert29">alert29</a>
-<a href="#gdcalert30">alert30</a>
-
-<p style="color: red; font-weight: bold">>>>>> PLEASE check and correct alert issues and delete this message and the inline alerts.<hr></p>
-
-
-
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Dolphin-Final-Report0.jpg). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Dolphin-Final-Report0.jpg "image_tooltip")
-
-
-
 # Dolphin News
 
 
@@ -64,16 +18,10 @@ Copenhagen Business Academy
 
 "_Dolphin News_" is based on the "_[Hacker News Clone](https://github.com/datsoftlyngby/soft2018fall-lsd-teaching-material/blob/master/assignments/01-HN%20Clone%20Task%20Description.ipynb)_"-project, which is a small light version of popular websites such as Reddit. The user is able to create post, which can be up- and down-voted, as well as commented by other users and the comments can be up- and down-voted as well. The point of the site, is that the popular post (and comments within the post) gets pushed to the top of the site through the use of the voting system, and thus subsequently pushing the least popular post and topics down.
 
+![alt_text](/LSDRaport/originalhackernews.png)
 
 
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Dolphin-Final-Report1.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Dolphin-Final-Report1.png "image_tooltip")
-
-
-_Original Hackernews as seen [here](https://news.ycombinator.com/ )  \
-_
+_Original Hackernews as seen [here](https://news.ycombinator.com/ )_
 
 For development of this project, the team used familiar technologies such as NodeJS, React, MobX, Continuous Integration and MySQL, but the team also challenged them self by use new and different options. The team chose to write the project in TypeScript, use Kubernetes very early in the project to support scaling, and Grafana, Prometheus and Kibana for error-logging and monitoring.
 
@@ -100,14 +48,7 @@ The project has been divided up into three different repos, to provide a better 
 
 ## 1.1. System requirements
 
-**This section should contain an elaborate description of the requirements for the project. This includes the scope of the Hackernews clone (what should it be able to do / what should it not be able to do).**
-
-
-
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Dolphin-Final-Report2.gif). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Dolphin-Final-Report2.gif "image_tooltip")
+![alt_text](/LSDRaport/dilbert.png)
 
 
 Picture [source](https://blog.capterra.com/wp-content/uploads/2015/12/dt940517dhc0-720x218.gif ) \
@@ -172,11 +113,7 @@ Finally, the team was tasked to add _scalability_ to our system, by creating a _
 At the beginning of the project, the team spent some time on setting up features for each of the three repos, such as auto-deployment with Kubernetes, Continuous Integration, as well as rules and settings for pushing new code to the master branch of the repos. 
 
 
-
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Dolphin-Final-Report3.jpg). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Dolphin-Final-Report3.jpg "image_tooltip")
+![alt_text](/LSDRaport/codereview.jpg)
 
 
 _Picture [source](https://about.gitlab.com/images/blogimages/ci-deployment-and-environments/queue.jpg) _
@@ -205,32 +142,19 @@ This also meant that the team would discuss what to work on next on the project,
 The team also failed to perform consistent _sprints_ and instead developed and deployed a lot of features at the last moment, which can be seen in the graphs below.     \
 
 
-
-
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Dolphin-Final-Report4.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Dolphin-Final-Report4.png "image_tooltip")
+![alt_text](/LSDRaport/backendContributions.png)
 
 
 _Graph of the contributions to the Backend_
 
 
-
-<p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Dolphin-Final-Report5.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Dolphin-Final-Report5.png "image_tooltip")
+![alt_text](/LSDRaport/frontendContributions.png)
 
 
 _Graph of the contributions to the Frontend_
 
 
-
-<p id="gdcalert7" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Dolphin-Final-Report6.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert8">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Dolphin-Final-Report6.png "image_tooltip")
+![alt_text](/LSDRaport/devopsContributions.png)
 
 
 _Graph of the contributions to the DevOps_
@@ -247,11 +171,7 @@ So while the team was successful with the setup, settings and actual development
 ### Bare Metal Kubernetes Setup
 
 
-
-<p id="gdcalert8" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Dolphin-Final-Report7.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert9">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Dolphin-Final-Report7.png "image_tooltip")
+![alt_text](/LSDRaport/KubernetesSetup.png)
 
 
 The team ran a very simple _Kubernetes _setup. The main goal was to learn the inner workings of _Kubernetes_, and to have a "_continuous deployment_" setup from the beginning, where we could rollback.
@@ -268,10 +188,8 @@ It is actually a really bad example of a Kubernetes setup, but for us it was suf
 
 ### 
 
-<p id="gdcalert9" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Dolphin-Final-Report8.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert10">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
-
-![alt_text](images/Dolphin-Final-Report8.png "image_tooltip")
+![alt_text](/LSDRaport/ContiniousDeployment.png)
 
 
 Our original plan was to have continuous deployment to a staging area, and then with the push of a button being able to push to a production environment. We ended up just deploying everything to master because we thought it was a good idea (it wasn't).
@@ -307,43 +225,28 @@ The schemas of each of the tables are as follows:
 
 
 
-<p id="gdcalert10" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Dolphin-Final-Report9.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert11">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Dolphin-Final-Report9.png "image_tooltip")
+![alt_text](/LSDRaport/comment.png)
 
 
 
 #### post-schema
 
 
-
-<p id="gdcalert11" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Dolphin-Final-Report10.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert12">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Dolphin-Final-Report10.png "image_tooltip")
+![alt_text](/LSDRaport/post.png)
 
 
 
 #### user-schema
 
 
-
-<p id="gdcalert12" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Dolphin-Final-Report11.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert13">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Dolphin-Final-Report11.png "image_tooltip")
+![alt_text](/LSDRaport/user.png)
 
 
 
 #### vote_comment-schema
 
 
-
-<p id="gdcalert13" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Dolphin-Final-Report12.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert14">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Dolphin-Final-Report12.png "image_tooltip")
+![alt_text](/LSDRaport/vote_comment.png)
 
 
 
@@ -352,10 +255,8 @@ The schemas of each of the tables are as follows:
 
 ## 
 
-<p id="gdcalert14" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Dolphin-Final-Report13.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert15">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
-
-![alt_text](images/Dolphin-Final-Report13.png "image_tooltip")
+![alt_text](/LSDRaport/vote_post.png")
 
 
 
@@ -386,10 +287,8 @@ A few requirements were put as well, on the data that it would receive. The data
 There were also design requirements for the frontend, that we would have to follow, as such: \
 
 
-<p id="gdcalert15" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Dolphin-Final-Report14.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert16">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
-
-![alt_text](images/Dolphin-Final-Report14.png "image_tooltip")
+![alt_text](/LSDRaport/hn_screenshot.png)
 
 
 
@@ -481,12 +380,7 @@ The developers had no objection to the proposed SLA, an so an agreement was quic
 When the operators started operating on the project, the frontend only displayed the layout of the page, no data was being loaded in or shown and gave a an error, stating that the frontend had "failed to load articles". Also, all of the selections in the navbar did not work either. \
 
 
-
-
-<p id="gdcalert16" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Dolphin-Final-Report15.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert17">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Dolphin-Final-Report15.png "image_tooltip")
+![alt_text](/LSDRaport/FrontEnd1.png)
 
 
 _Picture of the Frontend at hand-over_
@@ -495,22 +389,14 @@ _Picture of the Frontend at hand-over_
 
 In addition, the backend also had a lot of problems in the beginning, including being able able to create a user, but not to verify the newly created user through Postman.
 
-
-
-<p id="gdcalert17" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Dolphin-Final-Report16.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert18">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Dolphin-Final-Report16.png "image_tooltip")
+![alt_text](/LSDRaport/Postman-CreateUser.png)
 
 
 _Picture of a successfully created user through postman_
 
 
 
-<p id="gdcalert18" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Dolphin-Final-Report17.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert19">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Dolphin-Final-Report17.png "image_tooltip")
+![alt_text](/LSDRaport/Postman-FailedLogin.png)
 
 
 
@@ -524,10 +410,7 @@ To monitor the system, the operators (almost) daily checked the github, to see i
 
 The operators manually tested the backend and frontend, once new features or fixes had been added, as well as also going through the various commits, to see what had been added, changed or fixed under the hood, and finally documented the days work in the log. The manually testing proved that the developers had kept their promise of max 3 seconds of response time, based on the fact that both the frontend and backend responded incredible fast everytime the operators tested.
 
-<p id="gdcalert19" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Dolphin-Final-Report18.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert20">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Dolphin-Final-Report18.png "image_tooltip")
+![alt_text](/LSDRaport/final-hanesst_id-chart.png)
 
 
 
@@ -536,11 +419,7 @@ The operators manually tested the backend and frontend, once new features or fix
 As can be seen on the graph above, the project by group_f (the developers) successfully consumed over 14 mio. comments or post to its database, and successfully reported the latest 'hanesst_ids' back, making only one of two projects to achieve this.     
 
 
-
-<p id="gdcalert20" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Dolphin-Final-Report19.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert21">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Dolphin-Final-Report19.png "image_tooltip")
+![alt_text](/LSDRaport/final-error-chart.png)
 
 
 _Picture of Helge's graph, showing various errors reported by projects_
@@ -550,11 +429,7 @@ In terms of error-messages, the developers also achieved the seconds lowest erro
 The developers sadly relied to much on the AWS tools, meaning they never setup tools such as Grafana, Prometheus or Kibana, to help the operators monitor if the SLA agreement was being uphold.
 
 
-
-<p id="gdcalert21" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Dolphin-Final-Report20.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert22">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Dolphin-Final-Report20.png "image_tooltip")
+![alt_text](/LSDRaport/monitoring.png)
 
 
 _Picture from the developers AWS Monitoring of the project _ \
@@ -565,11 +440,7 @@ Looking through the AWS tools, the operators could see that the average latency 
 The developers also setup an alarm, for if the system was unresponsive for more than 15 minutes.
 
 
-
-<p id="gdcalert22" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Dolphin-Final-Report21.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert23">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Dolphin-Final-Report21.png "image_tooltip")
+![alt_text](/LSDRaport/alarms.png)
 _Picture of the projects alarm setup_
 
 At the end of the project, the operators have generally been very pleased by the progress made by the developers. All though some features were missing or did not function as expected in the beginning, the developers addressed the issues raised, all while the system maintained incredible stability. 
@@ -593,22 +464,14 @@ The operators do have a few minor issues that needs to be improved:
 
     
 
-<p id="gdcalert23" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Dolphin-Final-Report22.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert24">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Dolphin-Final-Report22.png "image_tooltip")
+![alt_text](/LSDRaport/GreatGithubFeedback.png)
 
 
 
     _Picture of a great example, of communication between the operators and the developers._
 
 
-    
-
-<p id="gdcalert24" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Dolphin-Final-Report23.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert25">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Dolphin-Final-Report23.png "image_tooltip")
+![alt_text](/LSDRaport/BadGithubFeedback.png)
 
 
 
@@ -626,7 +489,7 @@ The operators do have a few minor issues that needs to be improved:
 <p id="gdcalert25" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Dolphin-Final-Report24.jpg). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert26">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/Dolphin-Final-Report24.jpg "image_tooltip")
+![alt_text](/LSDRaport/positive-and-negative-thinking.jpg)
 
 
 _Picture [source](https://www.vectorstock.com/royalty-free-vector/positive-and-negative-thinking-vector-18958626) _
@@ -670,10 +533,7 @@ On the negative side:
 
 
 
-<p id="gdcalert26" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Dolphin-Final-Report25.jpg). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert27">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Dolphin-Final-Report25.jpg "image_tooltip")
+![alt_text](/LSDRaport/reflection-group.jpg)
 
 
 _Picture [source](https://pjp-eu.coe.int/documents/1017981/1667839/reflection-group.jpg/3df1d356-c8c0-4a16-9c22-e98edac0b0a8?t=1404492688000)_
@@ -683,7 +543,7 @@ _Picture [source](https://pjp-eu.coe.int/documents/1017981/1667839/reflection-gr
 <p id="gdcalert27" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Dolphin-Final-Report26.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert28">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/Dolphin-Final-Report26.png "image_tooltip")
+![alt_text](/LSDRaport/kubernetes-horizontal-color.png)
 
 
 _Picture [source ](https://kubernetes.io/images/kubernetes-horizontal-color.png)_
@@ -701,10 +561,8 @@ _Picture [source ](https://kubernetes.io/images/kubernetes-horizontal-color.png)
 
 ### 
 
-<p id="gdcalert28" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Dolphin-Final-Report27.jpg). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert29">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
-
-![alt_text](images/Dolphin-Final-Report27.jpg "image_tooltip")
+![alt_text](/LSDRaport/TypescriptLogo.jpeg)
 
 
 _Picture [source](https://cdn-images-1.medium.com/max/2000/1*D8Wwwce8wS3auLAiM3BQKA.jpeg ) _
@@ -721,11 +579,7 @@ _Picture [source](https://cdn-images-1.medium.com/max/2000/1*D8Wwwce8wS3auLAiM3B
 *   Turned out to be a tough transition from JavaScript for some of the developers, due to features such as _Static Typing_, _Strict Null Checking_ and _interfaces_, which while being features being used in _Java_ and _C#_, was difficult to adjust to in a _JavaScript _environment.
 
 
-
-<p id="gdcalert29" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Dolphin-Final-Report28.jpg). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert30">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Dolphin-Final-Report28.jpg "image_tooltip")
+![alt_text](/LSDRaport/DeveloperProcess.jpg)
 
 
 _Picture [source](http://vertassets.blob.core.windows.net/image/11a1feb2/11a1feb2-44e4-4c97-97e5-195e729fa67f/450x300people_holding_gears.jpg ) _
@@ -753,12 +607,7 @@ For even more reflections regarding the project, the team members wrote two diff
 
 # Conclusion
 
-
-
-<p id="gdcalert30" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Dolphin-Final-Report29.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert31">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Dolphin-Final-Report29.png "image_tooltip")
+![alt_text](/LSDRaport/conclusion.png)
 
 
 Picture [Source](http://www.evidentlycochrane.net/wp-content/uploads/2014/07/Screen-Shot-2014-07-23-at-14.41.59.png )
