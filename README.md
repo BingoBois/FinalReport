@@ -5,7 +5,7 @@
 
 Large System Development
 
-By Christian, Christoffer, Viktor, William og Zaeem
+By Christian, Chris, Viktor, William og Zaeem
 
 Fall 2018
 
