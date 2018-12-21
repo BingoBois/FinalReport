@@ -75,8 +75,8 @@ After 8 weeks, the system had to:
     *   Provide the id of the latest digested post.
         *   Through a specific API-path: _http://<your_host>:<your_port>/status_
     *   Provide status information.
-        *   Through a specific API-path: _http://<your_host>:<your_port>/status  \
-_
+        *   Through a specific API-path: _http://<your_host>:<your_port>/status_  
+
 
 During the next stages of development, the team usually had 1-2 weeks to develop and deliver the next parts of the system, while also acting as operators on another teams system and provide them with feedback. 
 
@@ -116,7 +116,7 @@ At the beginning of the project, the team spent some time on setting up features
 ![alt_text](/LSDRaport/codereview.jpg)
 
 
-_Picture [source](https://about.gitlab.com/images/blogimages/ci-deployment-and-environments/queue.jpg) _
+_Picture [source](https://about.gitlab.com/images/blogimages/ci-deployment-and-environments/queue.jpg)_
 
 
 
@@ -203,11 +203,9 @@ Turned out we had to rollback a bunch of times, and our homebrew software could 
 
 ### MySQL Database Design
 
-The setup for the MySQL database can be seen here: \
-[https://github.com/BingoBois/DolphinNewsNode/blob/master/vandfaldemodele.sql](https://github.com/BingoBois/DolphinNewsNode/blob/master/vandfaldemodele.sql)
+The setup for the MySQL database can be seen [here](https://github.com/BingoBois/DolphinNewsNode/blob/master/vandfaldemodele.sql)
 
 The database consists of 5 tables
-
 
 
 *   comment
@@ -256,7 +254,7 @@ The schemas of each of the tables are as follows:
 ## 
 
 
-![alt_text](/LSDRaport/vote_post.png")
+![alt_text](/LSDRaport/vote_post.png)
 
 
 
@@ -284,7 +282,7 @@ A few requirements were put as well, on the data that it would receive. The data
 ```
 
 
-There were also design requirements for the frontend, that we would have to follow, as such: \
+There were also design requirements for the frontend, that we would have to follow, as such: 
 
 
 
@@ -335,16 +333,16 @@ The team discovered a private cloud provider called Contabo. They were offering 
 
 # 2. Maintenance and SLA status
 
-We were assigned to operate the project developed by group 6/F, which repo can be found here: 
+We were assigned to operate the project developed by group 6/F, which repo can be found [here](https://github.com/edipetres/HackerNews-GroupF)
 
-[https://github.com/edipetres/HackerNews-GroupF](https://github.com/edipetres/HackerNews-GroupF)
+
 
 From the beginning of our assignment we kept a "_Operators Log_", documenting our entire operating assignment. From our internal thoughts on the project, to manually testing the backend and frontend, finding bugs, going through the latest updates to the repo, writing feedback, raising issues, documenting through screenshots, everything is documented in this log. 
 
-The entire log can be read here: \
-[https://docs.google.com/document/d/1fXdrMdLmUNE5lHgF4kbxaj-muuOK5JDSLDGCxRFu3Kw/edit#heading=h.xlty5i677mx2](https://docs.google.com/document/d/1fXdrMdLmUNE5lHgF4kbxaj-muuOK5JDSLDGCxRFu3Kw/edit#heading=h.xlty5i677mx2)
+The entire operators log can be read [here](https://docs.google.com/document/d/1fXdrMdLmUNE5lHgF4kbxaj-muuOK5JDSLDGCxRFu3Kw/edit#heading=h.xlty5i677mx2)
 
- \
+
+ 
 In this chapter, we will try to distill and present the most important findings from our operating assignment.
 
  
@@ -377,7 +375,7 @@ The developers had no objection to the proposed SLA, an so an agreement was quic
 
 ## 2.3. Maintenance and reliability
 
-When the operators started operating on the project, the frontend only displayed the layout of the page, no data was being loaded in or shown and gave a an error, stating that the frontend had "failed to load articles". Also, all of the selections in the navbar did not work either. \
+When the operators started operating on the project, the frontend only displayed the layout of the page, no data was being loaded in or shown and gave a an error, stating that the frontend had "failed to load articles". Also, all of the selections in the navbar did not work either. 
 
 
 ![alt_text](/LSDRaport/FrontEnd1.png)
@@ -399,8 +397,7 @@ _Picture of a successfully created user through postman_
 ![alt_text](/LSDRaport/Postman-FailedLogin.png)
 
 
-
-    _Picture of failing to login with the newly created user._
+_Picture of failing to login with the newly created user._
 
 
 
@@ -414,7 +411,7 @@ The operators manually tested the backend and frontend, once new features or fix
 
 
 
-    _Picture: The operators used the above graph provided by Helge, to quickly see if anything critical had happened. The developers graph-line is the light-purple one, group f_
+_Picture: The operators used the above graph provided by Helge, to quickly see if anything critical had happened. The developers graph-line is the light-purple one, group f_
 
 As can be seen on the graph above, the project by group_f (the developers) successfully consumed over 14 mio. comments or post to its database, and successfully reported the latest 'hanesst_ids' back, making only one of two projects to achieve this.     
 
@@ -432,7 +429,7 @@ The developers sadly relied to much on the AWS tools, meaning they never setup t
 ![alt_text](/LSDRaport/monitoring.png)
 
 
-_Picture from the developers AWS Monitoring of the project _ \
+_Picture from the developers AWS Monitoring of the project_ 
 
 
 Looking through the AWS tools, the operators could see that the average latency was kept to about 334.9 microseconds.
@@ -468,14 +465,14 @@ The operators do have a few minor issues that needs to be improved:
 
 
 
-    _Picture of a great example, of communication between the operators and the developers._
+_Picture of a great example, of communication between the operators and the developers._
 
 
 ![alt_text](/LSDRaport/BadGithubFeedback.png)
 
 
 
-    _Picture of an example of what the operators considered "bad feedback". Issue just got closed by a developer, but no feedback/comments or  link to commits that addressed and fixed the issue_
+_Picture of an example of what the operators considered "bad feedback". Issue just got closed by a developer, but no feedback/comments or  link to commits that addressed and fixed the issue_
 
 
 
@@ -484,22 +481,14 @@ The operators do have a few minor issues that needs to be improved:
 
 ## 3.1. Technical discussion
 
-
-
-<p id="gdcalert25" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Dolphin-Final-Report24.jpg). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert26">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 ![alt_text](/LSDRaport/positive-and-negative-thinking.jpg)
 
 
-_Picture [source](https://www.vectorstock.com/royalty-free-vector/positive-and-negative-thinking-vector-18958626) _
+_Picture [source](https://www.vectorstock.com/royalty-free-vector/positive-and-negative-thinking-vector-18958626)_
 
-In general the project itself was really interesting and challenging, but the team have some mixed feelings about the final result.  \
- \
-On the positive side
+In general the project itself was really interesting and challenging, but the team have some mixed feelings about the final result. 
 
-
-
+On the positive side:
 *   The team was happy with the successful implementation and learning experience of technologies such as Kubernetes
 *   How the team successfully wrote the project using TypeScript. 
 *   The setup of settings and rules regarding the development process of the project also proved to be a positive experience for the team, despite the extra steps. 
@@ -508,9 +497,6 @@ On the positive side
 
 
 On the negative side:
-
-
-
 *   The team spent a lot of time and resources on trying to learn and apply new technologies. 
 *   The team did not follow the _SCRUM _structure and practices
 *   Failed to maintain and update the backlog, making it easy for the developers to lose track and overview of development. 
@@ -539,10 +525,6 @@ On the negative side:
 _Picture [source](https://pjp-eu.coe.int/documents/1017981/1667839/reflection-group.jpg/3df1d356-c8c0-4a16-9c22-e98edac0b0a8?t=1404492688000)_
 
 
-
-<p id="gdcalert27" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Dolphin-Final-Report26.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert28">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 ![alt_text](/LSDRaport/kubernetes-horizontal-color.png)
 
 
@@ -565,7 +547,7 @@ _Picture [source ](https://kubernetes.io/images/kubernetes-horizontal-color.png)
 ![alt_text](/LSDRaport/TypescriptLogo.jpeg)
 
 
-_Picture [source](https://cdn-images-1.medium.com/max/2000/1*D8Wwwce8wS3auLAiM3BQKA.jpeg ) _
+_Picture [source](https://cdn-images-1.medium.com/max/2000/1*D8Wwwce8wS3auLAiM3BQKA.jpeg)_
 
 
 ### TypeScript
@@ -582,7 +564,7 @@ _Picture [source](https://cdn-images-1.medium.com/max/2000/1*D8Wwwce8wS3auLAiM3B
 ![alt_text](/LSDRaport/DeveloperProcess.jpg)
 
 
-_Picture [source](http://vertassets.blob.core.windows.net/image/11a1feb2/11a1feb2-44e4-4c97-97e5-195e729fa67f/450x300people_holding_gears.jpg ) _
+_Picture [source](http://vertassets.blob.core.windows.net/image/11a1feb2/11a1feb2-44e4-4c97-97e5-195e729fa67f/450x300people_holding_gears.jpg)_
 
 
 ### Development Process
@@ -610,7 +592,7 @@ For even more reflections regarding the project, the team members wrote two diff
 ![alt_text](/LSDRaport/conclusion.png)
 
 
-Picture [Source](http://www.evidentlycochrane.net/wp-content/uploads/2014/07/Screen-Shot-2014-07-23-at-14.41.59.png )
+_Picture [Source](http://www.evidentlycochrane.net/wp-content/uploads/2014/07/Screen-Shot-2014-07-23-at-14.41.59.png)_
 
 The team could have spent more time (and pages) on going even deeper into our project and development, but only had a maximum of 10 pages. The team could also have spent some more time on sketches, drawings and perhaps even a UML diagram of the system, to better visualize the vision for the project, its design and architecture.
 
