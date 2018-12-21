@@ -159,6 +159,9 @@ _Graph of the contributions to the Frontend_
 
 _Graph of the contributions to the DevOps_
 
+![backlog](/LSDRaport/backlog.png)
+_Picture(snippet) of the teams backlog, which while having been created, did not get expanded or maintained during development_
+
 So while the team was successful with the setup, settings and actual development of the project, the team dropped the ball hard when it came to oversight, sprints and operation of the project. 
 
 
