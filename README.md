@@ -5,7 +5,7 @@
 
 Large System Development
 
-By Christian, Chris, Viktor, William og Zaeem
+By Christian, Chris, Viktor, William & Zaeem
 
 Fall 2018
 
@@ -16,7 +16,7 @@ Copenhagen Business Academy
 
 # Introduction
 
-"_Dolphin News_" is based on the "_[Hacker News Clone](https://github.com/datsoftlyngby/soft2018fall-lsd-teaching-material/blob/master/assignments/01-HN%20Clone%20Task%20Description.ipynb)_"-project, which is a small light version of popular websites such as Reddit. The user is able to create post, which can be up- and down-voted, as well as commented by other users and the comments can be up- and down-voted as well. The point of the site, is that the popular post (and comments within the post) gets pushed to the top of the site through the use of the voting system, and thus subsequently pushing the least popular post and topics down.
+"_Dolphin News_" is based on the "_[Hacker News Clone](https://github.com/datsoftlyngby/soft2018fall-lsd-teaching-material/blob/master/assignments/01-HN%20Clone%20Task%20Description.ipynb)_"-project, which is a small light version of popular websites such as Reddit. The user is able to create posts, which can be up- and down-voted, as well as commented on by other users, and the comments can be up- and down-voted as well. The point of the site is that the popular post (and comments within the post) gets pushed to the top of the site through the use of the voting system, and thus subsequently pushing the least popular post and topics down.
 
 ![alt_text](/LSDRaport/originalhackernews.png)
 
@@ -54,7 +54,7 @@ The project has been divided up into three different repos, to provide a better 
 Picture [source](https://blog.capterra.com/wp-content/uploads/2015/12/dt940517dhc0-720x218.gif ) \
 
 
-The project was developed in stages over a period of 3 months. The first stage consisted of a 8 week period, in which the team had to create a backlog, project board, as well as develop and deliver a system that fulfilled a [set minimum requirements](https://github.com/datsoftlyngby/soft2018fall-lsd-teaching-material/blob/master/assignments/03-Minimum_Requirements_and_API_Description.md) and that subsequently would be handed-over to a operating team for monitoring. 
+The project was developed in stages over a period of 3 months. The first stage consisted of a 8 week period, in which the team had to create a backlog, project board, as well as develop and deliver a system that fulfilled a [set minimum requirements](https://github.com/datsoftlyngby/soft2018fall-lsd-teaching-material/blob/master/assignments/03-Minimum_Requirements_and_API_Description.md) and that subsequently would be handed-over to an operating team for monitoring. 
 
 After 8 weeks, the system had to:
 
@@ -78,9 +78,9 @@ After 8 weeks, the system had to:
         *   Through a specific API-path: _http://<your_host>:<your_port>/status_  
 
 
-During the next stages of development, the team usually had 1-2 weeks to develop and deliver the next parts of the system, while also acting as operators on another teams system and provide them with feedback. 
+During the next stages of development, the team usually had 1-2 weeks to develop and deliver the next parts of the system, while also acting as operators on another team's system and provide them with feedback. 
 
-For the next stages of development the team had to implement _Continuous Integration_, followed by sitting down with the team that was operating and monitoring our system and agree on a _Service-Level Agreement_ (SLA), which included:
+For the next stages of development, the team had to implement _Continuous Integration_, followed by sitting down with the team that was operating and monitoring our system and agree on a _Service-Level Agreement_ (SLA), which included:
 
 
 
@@ -125,19 +125,19 @@ _Picture [source](https://about.gitlab.com/images/blogimages/ci-deployment-and-e
 *   Settings were set in place, making it impossible to push directly to the master branch
 *   When merging a branch into master, a new Pull Request had to be created.
 *   The new Pull Request could not be approved by the creator
-*   Because of _Continuous Integration_, any test in code has to pass in order to be approved
+*   Because of _Continuous Integration_, any test in code must pass in order to be approved
 *   Another team member had to go through the submitted Pull Request (as thorough as possible), point out any errors or flaws and give their most honest opinion regarding the code
 *   If the team member was satisfied with the submitted code and potential requested changes to the code have been fixed, the team member could approve the Pull Request to be merged with the master branch.
 *   The master branch would always contain the latest and approved version
 
 While team members often worked from home, pair-programming was also used a lot during development, especially with the help of screen sharing tools such as Zoom, and voice tools as TeamSpeak.
 
-In terms of methodology, the team went with a _agile development_ approach, which resulted in a lot of features and functions often undergoing multiple iterations during development. \
+In terms of methodology, the team went with an _agile development_ approach, which resulted in a lot of features and functions often undergoing multiple iterations during development. \
 However, the team did not stick to a traditional _SCRUM_ approach to development of the project.
 
-Despite using this iterative approach to development and while the team initially had create a _SCRUM_-board/_backlog_ with user stories, the team failed to assign roles such as _Scrum Master_, _Product owner_ etc., which resulted in all team members more or less only being assigned "_Scrum developers_" roles. 
+Despite using this iterative approach to development and while the team initially had created a _SCRUM_-board/_backlog_ with user stories, the team failed to assign roles such as _Scrum Master_, _Product owner_ etc., which resulted in all team members more or less only being assigned "_Scrum developers_" roles. 
 
-This also meant that the team would discuss what to work on next on the project, either by face-to-face discussions in class, teamspeak or messenger, resulting in members often having to ask "_What should I work on?_" a lot. Failing to use and maintain the _SCRUM-board/Backlog_ also meant, that usually only 1 or 2 members of the team had an idea or overview of the projects status and what needed to be done. 
+This also meant that the team would discuss what to work on next on the project, either by face-to-face discussions in class, teamspeak or messenger, resulting in members often having to ask, "_What should I work on?_" a lot. Failing to use and maintain the _SCRUM-board/Backlog_ also meant, that usually only 1 or 2 members of the team had an idea or overview of the projects status and what needed to be done. 
 
 The team also failed to perform consistent _sprints_ and instead developed and deployed a lot of features at the last moment, which can be seen in the graphs below.     \
 
@@ -160,9 +160,9 @@ _Graph of the contributions to the Frontend_
 _Graph of the contributions to the DevOps_
 
 ![backlog](/LSDRaport/backlog2.png)
-_Picture(snippet) of the teams backlog, which while having been created, did not get expanded or maintained during development_
+_Picture (snippet) of the team's backlog, which while having been created, did not get expanded or maintained during development_
 
-So while the team was successful with the setup, settings and actual development of the project, the team dropped the ball hard when it came to oversight, sprints and operation of the project. 
+So, while the team was successful with the setup, settings and actual development of the project, the team dropped the ball hard when it came to oversight, sprints and operation of the project. 
 
 
 ## 
@@ -183,7 +183,7 @@ Since we were cheap, and wanted to do it as cost-efficient as possible, our Mast
 
 The cluster consisted of 1 slave pc, which also took care of logging, and the database.
 
-It is actually a really bad example of a Kubernetes setup, but for us it was sufficient (most of the time), and was a nice learning experience.
+It is actually a really bad example of a Kubernetes setup, but for us it was sufficient (most of the time) and was a nice learning experience.
 
 
 ### Continuous Deployment Setup
@@ -197,7 +197,7 @@ It is actually a really bad example of a Kubernetes setup, but for us it was suf
 
 Our original plan was to have continuous deployment to a staging area, and then with the push of a button being able to push to a production environment. We ended up just deploying everything to master because we thought it was a good idea (it wasn't).
 
-We blocked the master branch so the only way of getting commits in, is through pull requests. Then we have a nodejs/bash application listening on the Kubernetes master machine, which then builds, pushes and updates the kubernetes deployments.
+We blocked the master branch so the only way of getting commits in, is through pull requests. Then we have a NodeJS/bash application listening on the Kubernetes master machine, which then builds, pushes and updates the Kubernetes deployments.
 
 Turned out we had to rollback a bunch of times, and our homebrew software could have been less hacky, but it worked nonetheless and served us well during development.
 
@@ -266,7 +266,7 @@ The schemas of each of the tables are as follows:
 
 ## 1.4. Software design
 
-The requirements for this project weren't as many, although there were some implications that would have the design changed. We were told to have an HTTP API ready, as well as a website for normal users to interact with, that would copy the functionality of a known techforum called "Hacker-News". 
+The requirements for this project weren't as many, although there were some implications that would have the design changed. We were told to have an HTTP API ready, as well as a website for normal users to interact with, that would copy the functionality of a known tech forum called "Hacker-News". 
 
 A few requirements were put as well, on the data that it would receive. The data would be sent in by a stream of bots, hosted by the teacher. 
 
@@ -294,7 +294,7 @@ There were also design requirements for the frontend, that we would have to foll
 
 
 
-Immediately, we thought we would utilize some form of 3 layer architecture. The layers being:
+Immediately, we thought we would utilize some form of 3-layer architecture. The layers being:
 
 
 
@@ -306,9 +306,9 @@ The website we chose to make in React, as we've had experience with it, and it's
 
 The backend would be written in NodeJS, utilizing TypeScript and Express to gain most proficiency, as we were quite a few people to operate each of the platforms. Static checking would allow us to avoid runtime errors, and gain control like we would have with other statically typed language (C# and Java).
 
-The major concern and requirement here, would be **uptime. **A strong sense of pressure was put on that topic, and that our uptime would have to be at a acceptable level. At first, we assumed that smaller scalable solutions like message queues, or even docker swarm would fit the project and would allow us to fulfill that criteria. After further inspection, we came to the conclusion that kubernetes was a more sturdy choice, as it's used more often in the industry. The fact that it was made by google made it more credible as well, and the fact that they rely on it themselves gives assurance. 
+The major concern and requirement here, would be **uptime. **A strong sense of pressure was put on that topic, and that our uptime would have to be at an acceptable level. At first, we assumed that smaller scalable solutions like message queues, or even docker swarm would fit the project and would allow us to fulfill that criteria. After further inspection, we came to the conclusion that Kubernetes was a sturdier choice, as it's used more often in the industry. The fact that it was made by google made it more credible as well, and the fact that they rely on it themselves gives assurance. 
 
-Although these scaling tools come with more known cloud providers, we chose to go the manual way of doing things, and decided to try and setup our own kubernetes clusters as a learning experience. 
+Although these scaling tools come with more known cloud providers, we chose to go the manual way of doing things and decided to try and setup our own Kubernetes clusters as a learning experience. 
 
 One last technical concern we had, would be the fact that the database wasn't as scalable, and that we would have to optimize our queries to ensure that there wasn't as much latency when it comes to selecting and updating / inserting info into the database.
 
@@ -320,15 +320,15 @@ One last technical concern we had, would be the fact that the database wasn't as
 
 **This section should describe your actual implementation. Mainly how well you followed the requirements, process and software design you began with. If your system changed during this phase you should summarise the unexpected events/problems and explain how you solved them.**
 
-The transition to Typescript proved to be a hassle sometimes, as the team used Frameworks that have their own types and needs to be followed, as the team no longer used dynamic typing. The learning curve was trying to get used to the new workflow that came with Typescript and it's quirks. The team persisted and stuck with Typescript, as the team wanted to learn something new rather than creating yet another typical CRUD Application. 
+The transition to Typescript proved to be a hassle sometimes, as the team used Frameworks that have their own types and needs to be followed, as the team no longer used dynamic typing. The learning curve was trying to get used to the new workflow that came with Typescript and its quirks. The team persisted and stuck with Typescript, as the team wanted to learn something new rather than creating yet another typical CRUD Application. 
 
-During our early development stages, there was quite the confusion in regards to the correlation with the data being sent to the system, by the bots. The team started creating MySQL schemes, to fit the data being sent to us, and modelled all of the systems tables accordingly, so the team would adapt all around that. One of these issues came apparent very early into the start of the project. Getting the application hosted, as well as making the website was rather easy, although two issues came along during the test phase. 
+During our early development stages, there was quite the confusion in regard to the correlation with the data being sent to the system, by the bots. The team started creating MySQL schemes, to fit the data being sent to us, and modelled all the system's tables accordingly, so the team would adapt all around that. One of these issues came apparent very early into the start of the project. Getting the application hosted, as well as making the website was rather easy, although two issues came along during the test phase. 
 
-The team had mistaken the data received from the bots, and which was supplied to us. The website that was given to the team shows the latest post id. This post id could either be coming from a comment or a post. The team mistaked the hannest_id to be the latest post, although supposedly it's the latest of either comments or posts. This meant that the team were showing lower stats than most groups. 
+The team had mistaken the data received from the bots, and which was supplied to us. The website that was given to the team shows the latest post id. This post id could either be coming from a comment or a post. The team misunderstood the hannest_id to be the latest post, although supposedly it's the latest of either comments or posts. This meant that the team were showing lower stats than most groups. 
 
-Another concern that appeared, was the fact that the teams VPS were running rather slow. One thing that became apparent, was the fact that the teams clusters were being split on already low resource VPS machines. Each machine had around 1 gb of ram, and had 1 core to work on. The team searched vividly after a new host, to see if there was a alternative to offer, rather than paying for more expensive machines. 
+Another concern that appeared, was the fact that the teams VPS were running rather slow. One thing that became apparent, was the fact that the team's clusters were being split on already low resource VPS machines. Each machine had around 1 GB of ram and had 1 core to work on. The team searched vividly after a new host, to see if there was an alternative to offer, rather than paying for more expensive machines. 
 
-The team discovered a private cloud provider called Contabo. They were offering way more substantial servers, that really helped a bunch in terms of getting the project running smoother in terms of response times. The transition to Contabo proved it's worth and the teams latency issues were decreased. 
+The team discovered a private cloud provider called Contabo. They were offering way more substantial servers, that really helped a bunch in terms of getting the project running smoother in terms of response times. The transition to Contabo proved its worth and the team's latency issues were decreased.
 
 
 # 
@@ -340,7 +340,7 @@ We were assigned to operate the project developed by group 6/F, which repo can b
 
 
 
-From the beginning of our assignment we kept a "_Operators Log_", documenting our entire operating assignment. From our internal thoughts on the project, to manually testing the backend and frontend, finding bugs, going through the latest updates to the repo, writing feedback, raising issues, documenting through screenshots, everything is documented in this log. 
+From the beginning of our assignment we kept an "_Operators Log_", documenting our entire operating assignment. From our internal thoughts on the project, to manually testing the backend and frontend, finding bugs, going through the latest updates to the repo, writing feedback, raising issues, documenting through screenshots, everything is documented in this log. 
 
 The entire operators log can be read [here](https://docs.google.com/document/d/1fXdrMdLmUNE5lHgF4kbxaj-muuOK5JDSLDGCxRFu3Kw/edit#heading=h.xlty5i677mx2)
 
@@ -353,11 +353,11 @@ In this chapter, we will try to distill and present the most important findings 
 
 ## 2.1. Hand-over
 
-Documentation from the developers felt like the minimum required information, compared to what the operators [delivered to the operators of their project](https://docs.google.com/document/d/1js5Vx5Y_EBHAWZZGPYC5kW4LwCBrb_e1Qx2xlP_ZxnI/edit#). The documentation provided the operators with information on how to run the project locally, details regarding some of the technologies being used and database schema design. The operators really missed a overview of the projects API's, as well as access to some of the services that the developers used, like AWS and Mlab. 
+Documentation from the developers felt like the minimum required information, compared to what the operators [delivered to the operators of their project](https://docs.google.com/document/d/1js5Vx5Y_EBHAWZZGPYC5kW4LwCBrb_e1Qx2xlP_ZxnI/edit#). The documentation provided the operators with information on how to run the project locally, details regarding some of the technologies being used and database schema design. The operators really missed an overview of the projects API's, as well as access to some of the services that the developers used, like AWS and mLab. 
 
 Combined with the fact that the developers had opted to keep the entire project within one repo and not split it up into multiple ones, made it difficult and confusing in the beginning to get a grasp of the projects structure.
 
-The operators ended up spending a lot of time in the first few days manually testing the backend and frontend, as well as going through all the code that had been committed to the repository. This was done to help the operators get an complete overview and deeper insight into the projects current state and what needed to be done. To the developers credit, they had written a couple of issues on the Github repo, which helped the operators getting an overview of the projects status and maintaining it. 
+The operators ended up spending a lot of time in the first few days manually testing the backend and frontend, as well as going through all the code that had been committed to the repository. This was done to help the operators get a complete overview and deeper insight into the projects current state and what needed to be done. To the developers' credit, they had written a couple of issues on the GitHub repo, which helped the operators getting an overview of the projects status and maintaining it. 
 
 
 ## 
@@ -373,12 +373,12 @@ For the Service-level agreement (SLA), the operators suggested the following:
 *   Max 5% data Loss
 *   Max 3 seconds response time
 
-The developers had no objection to the proposed SLA, an so an agreement was quickly agreed upon.
+The developers had no objection to the proposed SLA, so an agreement was quickly agreed upon.
 
 
 ## 2.3. Maintenance and reliability
 
-When the operators started operating on the project, the frontend only displayed the layout of the page, no data was being loaded in or shown and gave a an error, stating that the frontend had "failed to load articles". Also, all of the selections in the navbar did not work either. 
+When the operators started operating on the project, the frontend only displayed the layout of the page, no data was being loaded in or shown and gave an error, stating that the frontend had "failed to load articles". Also, all the selections in the navbar did not work either. 
 
 
 ![alt_text](/LSDRaport/FrontEnd1.png)
@@ -388,7 +388,7 @@ _Picture of the Frontend at hand-over_
 
 
 
-In addition, the backend also had a lot of problems in the beginning, including being able able to create a user, but not to verify the newly created user through Postman.
+In addition, the backend also had a lot of problems in the beginning, including being able to create a user, but not to verify the newly created user through Postman.
 
 ![alt_text](/LSDRaport/Postman-CreateUser.png)
 
@@ -404,19 +404,19 @@ _Picture of failing to login with the newly created user._
 
 
 
-Despite a lot of technical errors, a mess of a Github Repo and a lot of github issues raised by the operators, the developers responded quickly, by updating the project and fixing the most critical errors and adding missing features.
+Despite a lot of technical errors, a mess of a GitHub Repo and a lot of GitHub issues raised by the operators, the developers responded quickly, by updating the project and fixing the most critical errors and adding missing features.
 
-To monitor the system, the operators (almost) daily checked the github, to see if issues that had been raised had been addressed and fixed. 
+To monitor the system, the operators (almost) daily checked the GitHub, to see if issues that had been raised had been addressed and fixed. 
 
-The operators manually tested the backend and frontend, once new features or fixes had been added, as well as also going through the various commits, to see what had been added, changed or fixed under the hood, and finally documented the days work in the log. The manually testing proved that the developers had kept their promise of max 3 seconds of response time, based on the fact that both the frontend and backend responded incredible fast everytime the operators tested.
+The operators manually tested the backend and frontend, once new features or fixes had been added, as well as also going through the various commits, to see what had been added, changed or fixed under the hood, and finally documented the day's work in the log. The manually testing proved that the developers had kept their promise of max 3 seconds of response time, since both the frontend and backend responded incredible fast every time the operators tested.
 
 ![alt_text](/LSDRaport/final-hanesst_id-chart.png)
 
 
 
-_Picture: The operators used the above graph provided by Helge, to quickly see if anything critical had happened. The developers graph-line is the light-purple one, group f_
+_Picture: The operators used the above graph provided by Helge, to quickly see if anything critical had happened. The developers' graph-line is the light-purple one, group f_
 
-As can be seen on the graph above, the project by group_f (the developers) successfully consumed over 14 mio. comments or post to its database, and successfully reported the latest 'hanesst_ids' back, making only one of two projects to achieve this.     
+As can be seen on the graph above, the project by group_f (the developers) successfully consumed over 14 million comments or post to its database, and successfully reported the latest 'hanesst_ids' back, making only one of two projects to achieve this.     
 
 
 ![alt_text](/LSDRaport/final-error-chart.png)
@@ -426,7 +426,7 @@ _Picture of Helge's graph, showing various errors reported by projects_
 
 In terms of error-messages, the developers also achieved the seconds lowest errors, among all the projects.
 
-The developers sadly relied to much on the AWS tools, meaning they never setup tools such as Grafana, Prometheus or Kibana, to help the operators monitor if the SLA agreement was being uphold.
+The developers sadly relied too much on the AWS tools, meaning they never setup tools such as Grafana, Prometheus or Kibana, to help the operators monitor if the SLA agreement was being uphold.
 
 
 ![alt_text](/LSDRaport/monitoring.png)
@@ -453,13 +453,13 @@ The operators do have a few minor issues that needs to be improved:
     *   Operators had no real way of checking if the SLA agreement was upheld
 *   Slow response
     *   According to Helge, developers should respond to issues raised to the operators within 48 hours of posting and preferable with a fix to address the issue.
-*   Did not finish or adress all Github issues (as of 18/12-2018)
-    *   54 issues was raised during development
-    *   36 was closed 
-    *   Of the 54 issue, 29 of them (or 53.70%) was raised by the operators
+*   Did not finish or address all GitHub issues (as of 18/12-2018)
+    *   54 issues were raised during development
+    *   36 were closed 
+    *   Of the 54 issue, 29 of them (or 53.70%) were raised by the operators
 *   Lack of feedback
-    *   Communication and feedback between operators and developers was mostly done through Github issues, which worked great.
-    *    A lot of the issues that we raised in the project repo was never commented. The operators would have liked to see the developers (at minimum) write a comment stating "Ok, we'll look into it", just to show that they've seen the issue and are aware of it. 
+    *   Communication and feedback between operators and developers was mostly done through GitHub issues, which worked great.
+    *    A lot of the issues that we raised in the project repo were never commented. The operators would have liked to see the developers (at minimum) write a comment stating "Ok, we'll look into it", just to show that they've seen the issue and are aware of it. 
     *   The operators would also have liked to see the developers linking to commits fixing or addressing issues raised when closing or responding to an issue.
 
     
@@ -489,13 +489,13 @@ _Picture of an example of what the operators considered "bad feedback". Issue ju
 
 _Picture [source](https://www.vectorstock.com/royalty-free-vector/positive-and-negative-thinking-vector-18958626)_
 
-In general the project itself was really interesting and challenging, but the team have some mixed feelings about the final result. 
+In general, the project itself was really interesting and challenging, but the team have some mixed feelings about the final result. 
 
 On the positive side:
 *   The team was happy with the successful implementation and learning experience of technologies such as Kubernetes
 *   How the team successfully wrote the project using TypeScript. 
 *   The setup of settings and rules regarding the development process of the project also proved to be a positive experience for the team, despite the extra steps. 
-*   The team felt very good about the work done to operate team E's project, in which the team not only created over 53.70% of the issues raised and provided them with feedback, but also managed to heavily documented its findings and thoughts in a separate document.
+*   The team felt very good about the work done to operate team E's project, in which the team not only created over 53.70% of the issues raised and provided them with feedback, but also managed to heavily document its findings and thoughts in a separate document.
 
 
 
@@ -539,7 +539,7 @@ _Picture [source ](https://kubernetes.io/images/kubernetes-horizontal-color.png)
 
 
 *   The team opted to integrate Kubernetes from the beginning of the project, saving the team time when the project down the line required us to integrate some form of scalability to the system. 
-*   Kubernetes helped the team develop a stabile and as crash-proof system (as possible).
+*   Kubernetes helped the team develop a stable and as crash-proof system (as possible).
 *   While it saved the team time further down the development line, it took quite some time to get a grip of it and a lot of trial and error, but the time was well spent.
 *   Because of the attempt to integrate Kubernetes so early in development, had the team not being able to accomplish it, the team would have had time to choose a different approach.
 
@@ -579,7 +579,7 @@ _Picture [source](http://vertassets.blob.core.windows.net/image/11a1feb2/11a1feb
 *   Worked great for quality control of the developers work  
 *   Minor fixes and adjustments required the same process, as major features and functions, which sometimes could be tedious
 
-For even more reflections regarding the project, the team members wrote two different blogs (due to limited team sizes) for a different exam project in "_Udforskning & Formidling_" ( "_Discovery & Research_") regarding topics related to the project:
+For even more reflections regarding the project, the team members wrote two different blogs (due to limited team sizes) for a different exam project in "_Udforskning & Formidling_" ("_Discovery & Research_") regarding topics related to the project:
 
 
 
