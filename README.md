@@ -510,7 +510,7 @@ On the negative side:
 *   The system only managed to consume about ⅓ of the total data, compared to other teams. 
 *   Not enough written test for the backend and frontend
 *   Team failed to maintain data for grafana, prometheus and kibana, making it difficult for our operators to see if we managed to fulfill our SLA goals. 
-*   The team should have pushed team E and demand that grafana and prometheus getting implemented into the system or at least prove to us, that the AWS tools could provide us with the data to make sure that the SLA was fulfilled. 
+*   The team should have pushed team F and demand that grafana and prometheus getting implemented into the system or at least prove to us, that the AWS tools could provide us with the data to make sure that the SLA was fulfilled. 
 *   Because the team had structured the project into three different repos, the team should also have made it easier to share the various _types_ that was required for working with TypeScript. 
 *   The team also feels that the group (group 4) that was supposed to operate our system and provide us feedback, failed to accomplish this task.
 
