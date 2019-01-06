@@ -318,8 +318,6 @@ One last technical concern we had, would be the fact that the database wasn't as
 
 ## 1.5. Software implementation
 
-**This section should describe your actual implementation. Mainly how well you followed the requirements, process and software design you began with. If your system changed during this phase you should summarise the unexpected events/problems and explain how you solved them.**
-
 The transition to Typescript proved to be a hassle sometimes, as the team used Frameworks that have their own types and needs to be followed, as the team no longer used dynamic typing. The learning curve was trying to get used to the new workflow that came with Typescript and its quirks. The team persisted and stuck with Typescript, as the team wanted to learn something new rather than creating yet another typical CRUD Application. 
 
 During our early development stages, there was quite the confusion in regard to the correlation with the data being sent to the system, by the bots. The team started creating MySQL schemes, to fit the data being sent to us, and modelled all the system's tables accordingly, so the team would adapt all around that. One of these issues came apparent very early into the start of the project. Getting the application hosted, as well as making the website was rather easy, although two issues came along during the test phase. 
